@@ -44,6 +44,8 @@ function App() {
     console.log(review)
 
     let predictionResponse = await predictMovieScore(myReview)
+    let prediction = predictionResponse.prediction === 'positive' ? '👍' : '👎'
+    setPredictionScore(prediction)
   }
 
   const hideModal = () => {
