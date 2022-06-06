@@ -1,7 +1,7 @@
 # Tutorial - Movie Rating Predictor and Classifier
 
 A tutorial for how build a web application that uses DataRobot to classify movie ratings by audiences.
-Demo: https://movie-rating-app.now.sh/
+Demo: https://movie-rating-classifier-psi.vercel.app
 
 The app lets you rate the movie and uses ML to clasify your rating in either positive or negative - Rotten Tomatoes style. <br/>
 It uses DataRobot to create the ML model, deploy it, and expose it as a prediction API, and the movie database taken from from RapidApi. <br/>
@@ -18,10 +18,10 @@ The movies you can rate are taken from IMDB's top 250 movies of all time.
 To follow along the tutorial check out the `start_exercise` branch.
 To see the finished application check out the `complete` branch.
 
-If using the `complete` branch, replace the values in `movie-rating-classifier/api/_env.js` with your values from your DataRobot installation.
+If using the `complete` branch, replace the values in `movie-rating-classifier/.env.example` with your values from your DataRobot installation and save it as `movie-rating-classifier/.env`. Do not commit this file to git!
 
 - Run `vercel` to deploy
-- Run `vercel dev` to run locally (but you need to deploy it once first)
+- Run `vercel dev` to run locally
 
 ## Repository Contents
 
