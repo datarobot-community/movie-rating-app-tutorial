@@ -1,7 +1,7 @@
 # Tutorial - Movie Rating Predictor and Classifier
 
 A tutorial for how build a web application that uses DataRobot to classify movie ratings by audiences.
-Demo: https://movie-rating-app.now.sh/
+Demo: https://movie-rating-classifier-psi.vercel.app
 
 The app lets you rate the movie and uses ML to clasify your rating in either positive or negative - Rotten Tomatoes style. <br/>
 It uses DataRobot to create the ML model, deploy it, and expose it as a prediction API, and the movie database taken from from RapidApi. <br/>
