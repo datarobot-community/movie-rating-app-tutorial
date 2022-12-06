@@ -1,3 +1,5 @@
+**Please note:** The code in these repos is sourced from the DataRobot user community and is not owned or maintained by DataRobot, Inc. You may need to make edits or updates for this code to function properly in your environment.
+
 # Tutorial - Movie Rating Predictor and Classifier
 
 A tutorial for how build a web application that uses DataRobot to classify movie ratings by audiences.
